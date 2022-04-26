@@ -1794,64 +1794,64 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F
 		struct
 		{
 			// System.Int32 System.Decimal::flags
-			int32_t ___flags_5;
+			int32_t ___flags_8;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			int32_t ___flags_5_forAlignmentOnly;
+			int32_t ___flags_8_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___hi_6_OffsetPadding[4];
+			char ___hi_9_OffsetPadding[4];
 			// System.Int32 System.Decimal::hi
-			int32_t ___hi_6;
+			int32_t ___hi_9;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___hi_6_OffsetPadding_forAlignmentOnly[4];
-			int32_t ___hi_6_forAlignmentOnly;
+			char ___hi_9_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___hi_9_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___lo_7_OffsetPadding[8];
+			char ___lo_10_OffsetPadding[8];
 			// System.Int32 System.Decimal::lo
-			int32_t ___lo_7;
+			int32_t ___lo_10;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___lo_7_OffsetPadding_forAlignmentOnly[8];
-			int32_t ___lo_7_forAlignmentOnly;
+			char ___lo_10_OffsetPadding_forAlignmentOnly[8];
+			int32_t ___lo_10_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___mid_8_OffsetPadding[12];
+			char ___mid_11_OffsetPadding[12];
 			// System.Int32 System.Decimal::mid
-			int32_t ___mid_8;
+			int32_t ___mid_11;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___mid_8_OffsetPadding_forAlignmentOnly[12];
-			int32_t ___mid_8_forAlignmentOnly;
+			char ___mid_11_OffsetPadding_forAlignmentOnly[12];
+			int32_t ___mid_11_forAlignmentOnly;
 		};
 		#pragma pack(push, tp, 1)
 		struct
 		{
-			char ___ulomidLE_9_OffsetPadding[8];
+			char ___ulomidLE_12_OffsetPadding[8];
 			// System.UInt64 System.Decimal::ulomidLE
-			uint64_t ___ulomidLE_9;
+			uint64_t ___ulomidLE_12;
 		};
 		#pragma pack(pop, tp)
 		struct
 		{
-			char ___ulomidLE_9_OffsetPadding_forAlignmentOnly[8];
-			uint64_t ___ulomidLE_9_forAlignmentOnly;
+			char ___ulomidLE_12_OffsetPadding_forAlignmentOnly[8];
+			uint64_t ___ulomidLE_12_forAlignmentOnly;
 		};
 	};
 };
@@ -1859,15 +1859,15 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 {
 	// System.Decimal System.Decimal::Zero
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_0;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_3;
 	// System.Decimal System.Decimal::One
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_1;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_4;
 	// System.Decimal System.Decimal::MinusOne
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_2;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_5;
 	// System.Decimal System.Decimal::MaxValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_3;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_6;
 	// System.Decimal System.Decimal::MinValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_4;
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_7;
 };
 
 // System.Double
@@ -2448,10 +2448,24 @@ struct TypeCode_tBEF9BE86C8BCF5A6B82F3381219738D27804EF79
 	int32_t ___value___2;
 };
 
+// System.UriFormat
+struct UriFormat_tCFECBDF50112D695E5A4C3F05AE60480FB77A2C0 
+{
+	// System.Int32 System.UriFormat::value__
+	int32_t ___value___2;
+};
+
 // System.UriIdnScope
 struct UriIdnScope_t001CC97A6F977E9BB7DB855CC6BA415A7F47491F 
 {
 	// System.Int32 System.UriIdnScope::value__
+	int32_t ___value___2;
+};
+
+// System.UriKind
+struct UriKind_t6597BD6BF48C695D63244DF8541B5EA48FF7F9E7 
+{
+	// System.Int32 System.UriKind::value__
 	int32_t ___value___2;
 };
 
@@ -3291,19 +3305,19 @@ struct Type_t_StaticFields
 struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
 {
 	// System.String System.Uri::m_String
-	String_t* ___m_String_13;
+	String_t* ___m_String_16;
 	// System.String System.Uri::m_originalUnicodeString
-	String_t* ___m_originalUnicodeString_14;
+	String_t* ___m_originalUnicodeString_17;
 	// System.UriParser System.Uri::m_Syntax
-	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_15;
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_18;
 	// System.String System.Uri::m_DnsSafeHost
-	String_t* ___m_DnsSafeHost_16;
+	String_t* ___m_DnsSafeHost_19;
 	// System.Uri/Flags System.Uri::m_Flags
-	uint64_t ___m_Flags_17;
+	uint64_t ___m_Flags_20;
 	// System.Uri/UriInfo System.Uri::m_Info
-	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_18;
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_21;
 	// System.Boolean System.Uri::m_iriParsing
-	bool ___m_iriParsing_19;
+	bool ___m_iriParsing_22;
 };
 
 struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
@@ -3335,23 +3349,23 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 	// System.String System.Uri::SchemeDelimiter
 	String_t* ___SchemeDelimiter_12;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
-	bool ___s_ConfigInitialized_20;
+	bool ___s_ConfigInitialized_23;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
-	bool ___s_ConfigInitializing_21;
+	bool ___s_ConfigInitializing_24;
 	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
-	int32_t ___s_IdnScope_22;
+	int32_t ___s_IdnScope_25;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
-	bool ___s_IriParsing_23;
+	bool ___s_IriParsing_26;
 	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
-	bool ___useDotNetRelativeOrAbsolute_24;
+	bool ___useDotNetRelativeOrAbsolute_27;
 	// System.Boolean System.Uri::IsWindowsFileSystem
-	bool ___IsWindowsFileSystem_25;
+	bool ___IsWindowsFileSystem_29;
 	// System.Object System.Uri::s_initLock
-	RuntimeObject* ___s_initLock_26;
+	RuntimeObject* ___s_initLock_30;
 	// System.Char[] System.Uri::HexLowerChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_27;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
 	// System.Char[] System.Uri::_WSchars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_28;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
 };
 
 // System.Xml.Schema.ValidationEventArgs
@@ -6068,7 +6082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Datatype_nonPositiveInteger__cctor_mAC29
 		memset((&L_0), 0, sizeof(L_0));
 		Decimal__ctor_mC089D0AF6A28E017DE6F2F0966D8EBEBFE2DAAF7((&L_0), (-1), (-1), (-1), (bool)1, (uint8_t)0, /*hidden argument*/NULL);
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		Numeric10FacetsChecker_t7BC4E413EDDD28E0FFEA17D40D7513CC77445109* L_2 = (Numeric10FacetsChecker_t7BC4E413EDDD28E0FFEA17D40D7513CC77445109*)il2cpp_codegen_object_new(Numeric10FacetsChecker_t7BC4E413EDDD28E0FFEA17D40D7513CC77445109_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		Numeric10FacetsChecker__ctor_mAC68FB10F4410FCE23B0E6D469B94C4C47F6DD78(L_2, L_0, L_1, NULL);
@@ -6138,7 +6152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Datatype_negativeInteger__cctor_m3A28538
 		memset((&L_0), 0, sizeof(L_0));
 		Decimal__ctor_mC089D0AF6A28E017DE6F2F0966D8EBEBFE2DAAF7((&L_0), (-1), (-1), (-1), (bool)1, (uint8_t)0, /*hidden argument*/NULL);
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___MinusOne_2;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___MinusOne_5;
 		Numeric10FacetsChecker_t7BC4E413EDDD28E0FFEA17D40D7513CC77445109* L_2 = (Numeric10FacetsChecker_t7BC4E413EDDD28E0FFEA17D40D7513CC77445109*)il2cpp_codegen_object_new(Numeric10FacetsChecker_t7BC4E413EDDD28E0FFEA17D40D7513CC77445109_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		Numeric10FacetsChecker__ctor_mAC68FB10F4410FCE23B0E6D469B94C4C47F6DD78(L_2, L_0, L_1, NULL);
@@ -7007,7 +7021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Datatype_nonNegativeInteger__cctor_m7B83
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Decimal__ctor_mC089D0AF6A28E017DE6F2F0966D8EBEBFE2DAAF7((&L_1), (-1), (-1), (-1), (bool)0, (uint8_t)0, /*hidden argument*/NULL);
@@ -7215,7 +7229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Datatype_unsignedLong__cctor_mA4F1FF1DCD
 		((Datatype_unsignedLong_t03058783F6B4D509EEF9A4334DE90406C7CF111F_StaticFields*)il2cpp_codegen_static_fields_for(Datatype_unsignedLong_t03058783F6B4D509EEF9A4334DE90406C7CF111F_il2cpp_TypeInfo_var))->___listValueType_96 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((Datatype_unsignedLong_t03058783F6B4D509EEF9A4334DE90406C7CF111F_StaticFields*)il2cpp_codegen_static_fields_for(Datatype_unsignedLong_t03058783F6B4D509EEF9A4334DE90406C7CF111F_il2cpp_TypeInfo_var))->___listValueType_96), (void*)L_3);
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_4 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_4 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Decimal__ctor_m9CB8BFC1B0EDC4847DC5F36E7477E4A60F3E624C((&L_5), ((int64_t)(-1)), /*hidden argument*/NULL);
@@ -7419,7 +7433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Datatype_unsignedInt__cctor_mFE74F931BF6
 		((Datatype_unsignedInt_t99A457EB9C80C517B6F8897478FAA375C7F10389_StaticFields*)il2cpp_codegen_static_fields_for(Datatype_unsignedInt_t99A457EB9C80C517B6F8897478FAA375C7F10389_il2cpp_TypeInfo_var))->___listValueType_99 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((Datatype_unsignedInt_t99A457EB9C80C517B6F8897478FAA375C7F10389_StaticFields*)il2cpp_codegen_static_fields_for(Datatype_unsignedInt_t99A457EB9C80C517B6F8897478FAA375C7F10389_il2cpp_TypeInfo_var))->___listValueType_99), (void*)L_3);
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_4 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_4 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Decimal__ctor_m2A5CA96744F1CA434D87C61A7856FA2F2C2C1191((&L_5), (-1), /*hidden argument*/NULL);
@@ -7623,7 +7637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Datatype_unsignedShort__cctor_mB117F09E4
 		((Datatype_unsignedShort_t2FCA0FD0CA9F601B7938A07226074483A8494513_StaticFields*)il2cpp_codegen_static_fields_for(Datatype_unsignedShort_t2FCA0FD0CA9F601B7938A07226074483A8494513_il2cpp_TypeInfo_var))->___listValueType_102 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((Datatype_unsignedShort_t2FCA0FD0CA9F601B7938A07226074483A8494513_StaticFields*)il2cpp_codegen_static_fields_for(Datatype_unsignedShort_t2FCA0FD0CA9F601B7938A07226074483A8494513_il2cpp_TypeInfo_var))->___listValueType_102), (void*)L_3);
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_4 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_4 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Decimal__ctor_m6DDFD6E3A7A8CDEB1BADF8E09A8D8E1BDA9497A9((&L_5), ((int32_t)65535), /*hidden argument*/NULL);
@@ -7827,7 +7841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Datatype_unsignedByte__cctor_m85A3AFD308
 		((Datatype_unsignedByte_t507F8AF976F96D31C4D2AB98A1C2A411769DFA03_StaticFields*)il2cpp_codegen_static_fields_for(Datatype_unsignedByte_t507F8AF976F96D31C4D2AB98A1C2A411769DFA03_il2cpp_TypeInfo_var))->___listValueType_105 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((Datatype_unsignedByte_t507F8AF976F96D31C4D2AB98A1C2A411769DFA03_StaticFields*)il2cpp_codegen_static_fields_for(Datatype_unsignedByte_t507F8AF976F96D31C4D2AB98A1C2A411769DFA03_il2cpp_TypeInfo_var))->___listValueType_105), (void*)L_3);
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_4 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_4 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Decimal__ctor_m6DDFD6E3A7A8CDEB1BADF8E09A8D8E1BDA9497A9((&L_5), ((int32_t)255), /*hidden argument*/NULL);
@@ -7897,7 +7911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Datatype_positiveInteger__cctor_m20234EE
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_1;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_4;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Decimal__ctor_mC089D0AF6A28E017DE6F2F0966D8EBEBFE2DAAF7((&L_1), (-1), (-1), (-1), (bool)0, (uint8_t)0, /*hidden argument*/NULL);
@@ -9518,7 +9532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643
 	int32_t V_2 = 0;
 	{
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_1;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_4;
 		V_0 = L_0;
 		int32_t L_1 = ___x0;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_2;
@@ -10091,13 +10105,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* Numeric10FacetsChecker_CheckTota
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1;
 		L_1 = FacetsChecker_Power_m1257C504DBE26010B0234F90BB1EC9CD96BA2DD5(((int32_t)10), L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_2 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_1;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_2 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_4;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_3;
 		L_3 = Decimal_op_Subtraction_m50F5DC718BD003A09A5BC62BAA3DECD0745AD3F1(L_1, L_2, NULL);
 		V_0 = L_3;
 		V_1 = 0;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_4 = ___value0;
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_5 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_5 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		bool L_6;
 		L_6 = Decimal_op_LessThan_m97DE1A1C431696A13299452BF9C789F3DD4D19B2(L_4, L_5, NULL);
 		if (!L_6)
@@ -17607,7 +17621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XmlSchemaComplexType_t3C6B94A26B4C70D8780E415
 		V_1 = L_3;
 		XmlSchemaAny_tDC4D6CE18918F8446C9B25A21E003CD7F28A65A1* L_4 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_5 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_5 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		NullCheck(L_4);
 		XmlSchemaParticle_set_MinOccurs_mF5AD1AEB14E696DFC27F54ACF153134BA8C269F3(L_4, L_5, NULL);
 		XmlSchemaAny_tDC4D6CE18918F8446C9B25A21E003CD7F28A65A1* L_6 = V_1;
@@ -19232,7 +19246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlSchemaParticle_set_MinOccurs_mF5AD1AE
 	{
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ___value0;
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		bool L_2;
 		L_2 = Decimal_op_LessThan_m97DE1A1C431696A13299452BF9C789F3DD4D19B2(L_0, L_1, NULL);
 		if (L_2)
@@ -19284,7 +19298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlSchemaParticle_set_MaxOccurs_m323FFAA
 	{
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ___value0;
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		bool L_2;
 		L_2 = Decimal_op_LessThan_m97DE1A1C431696A13299452BF9C789F3DD4D19B2(L_0, L_1, NULL);
 		if (L_2)
@@ -19321,7 +19335,7 @@ IL_002b:
 		__this->___maxOccurs_1 = L_9;
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_10 = __this->___maxOccurs_1;
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_11 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_11 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		bool L_12;
 		L_12 = Decimal_op_Equality_m48AE8B579CA29541C36D456B707AF9D8015C3558(L_10, L_11, NULL);
 		if (!L_12)
@@ -19359,9 +19373,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlSchemaParticle__ctor_mDF61E3EE9B7D410
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_1;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_4;
 		__this->___minOccurs_0 = L_0;
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_1;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___One_4;
 		__this->___maxOccurs_1 = L_1;
 		XmlSchemaAnnotated__ctor_m094C7E3CD496FCF801D2A9A68E6D410B634096BC(__this, NULL);
 		return;
@@ -22959,7 +22973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t XmlBaseConverter_DecimalToUInt64_m30
 	{
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ___value0;
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
-		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_0;
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1 = ((Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields*)il2cpp_codegen_static_fields_for(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var))->___Zero_3;
 		bool L_2;
 		L_2 = Decimal_op_LessThan_m97DE1A1C431696A13299452BF9C789F3DD4D19B2(L_0, L_1, NULL);
 		if (L_2)

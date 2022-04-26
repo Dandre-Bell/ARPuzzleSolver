@@ -15785,6 +15785,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntPtr_op_Explicit_m358ACBBA288C56CC4
 		return ((int32_t)L_0);
 	}
 }
+// System.Int64 System.IntPtr::op_Explicit(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t IntPtr_op_Explicit_m4D0C62CD2FBF2A43A390E6CE4A506B2B9A698B66 (intptr_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int64_t L_0;
+		L_0 = IntPtr_ToInt64_m0F81FB6FB08014074D4F5B915EDAB06A08552032((&___value0), NULL);
+		return L_0;
+	}
+}
 // System.Void* System.IntPtr::op_Explicit(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294 (intptr_t ___value0, const RuntimeMethod* method) 
 {
