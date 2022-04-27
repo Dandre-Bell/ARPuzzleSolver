@@ -3209,6 +3209,13 @@ struct NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0  : public Stream_
 	int32_t ____currentWriteTimeout_11;
 };
 
+// System.Collections.Generic.NodeColor
+struct NodeColor_t3C462CF5E46B843CC52B1FF46B6488BC18768F4F 
+{
+	// System.Byte System.Collections.Generic.NodeColor::value__
+	uint8_t ___value___2;
+};
+
 // System.PlatformID
 struct PlatformID_t9C84323A65D2A39DBEB7A922286A9E9836B8BECA 
 {
@@ -3474,6 +3481,13 @@ struct TlsProtocols_tCC009DAEEFCA5769448145AD24A1193CD5E8541B
 {
 	// System.Int32 Mono.Security.Interface.TlsProtocols::value__
 	int32_t ___value___2;
+};
+
+// System.Collections.Generic.TreeRotation
+struct TreeRotation_t8E73F08A08D4DC4DA6DA17D92767DE6997B01A0A 
+{
+	// System.Byte System.Collections.Generic.TreeRotation::value__
+	uint8_t ___value___2;
 };
 
 // System.ComponentModel.TypeConverter
@@ -31179,6 +31193,22 @@ IL_001a:
 		return L_3;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

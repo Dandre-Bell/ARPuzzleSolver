@@ -36,11 +36,14 @@ public class SolverDriver : MonoBehaviour
 
     // Start is called before the first frame update
     void Awake()
-    {
+    {   
+        m_RaycastManager = GetComponent<ARRaycastManager>();
+        m_AnchorManager = GetComponent<ARAnchorManager>();
         hintObjects.Add("Clubs", trifoldPrefab);
         hintObjects.Add("Hearts", ampPrefab);
         hintObjects.Add("Spades", treePrefab);
         hintObjects.Add("Diamonds", podiumPrefab);
+
     }
 
     // Update is called once per frame
@@ -84,7 +87,7 @@ public class SolverDriver : MonoBehaviour
 
     public void CheckGuess()
     {
-        if(guessInput.text == "Final Project")
+        if(guessInput.text == "Final project")
         {
             screenOutput.color = Color.green;
             screenOutput.text = "Correct!";

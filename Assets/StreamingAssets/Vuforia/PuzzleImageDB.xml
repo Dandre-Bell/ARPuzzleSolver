@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Back" size="0.064000 0.096479" />
+    <ImageTarget name="AceOfDiamonds" size="0.064000 0.087830" />
+    <ImageTarget name="Joker" size="0.064000 0.087494" />
+    <ImageTarget name="JackOfDiamonds" size="0.064000 0.089755" />
+    <ImageTarget name="JackOfSpades" size="0.064000 0.092510" />
+    <ImageTarget name="JackOfHearts" size="0.064000 0.090611" />
+    <ImageTarget name="JackOfClubs" size="0.064000 0.090798" />
+    <ImageTarget name="QueenOfDiamonds" size="0.064000 0.089674" />
+    <ImageTarget name="QueenOfSpades" size="0.064000 0.088301" />
+    <ImageTarget name="QueenOfHearts" size="0.064000 0.088477" />
+    <ImageTarget name="QueenOfClubs" size="0.064000 0.090228" />
+    <ImageTarget name="KingOfDiamonds" size="0.064000 0.088831" />
+    <ImageTarget name="KingOfSpades" size="0.064000 0.088754" />
+    <ImageTarget name="KingOfHearts" size="0.064000 0.088860" />
+    <ImageTarget name="KingOfClubs" size="0.064000 0.087507" />
+    <ImageTarget name="AceOfHearts" size="0.064000 0.086258" />
+    <ImageTarget name="AceOfSpades" size="0.064000 0.089757" />
+    <ImageTarget name="AceOfClubs" size="0.064000 0.089413" />
+  </Tracking>
+</QCARConfig>

@@ -498,6 +498,8 @@ struct ContinuationTaskFromResultTask_1_t3ED26B5DC64622CAD8CCE4544E6F7CE63023AA9
 struct ContinuationTaskFromResultTask_1_t0D3B0C43A4B7C9E5D99AAFE95D96D4C2C83096EC;
 // System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>
 struct ContinuationTaskFromResultTask_1_t0A8FDEA74F016A246D22E5545F9D6EA6503B4D52;
+// System.Converter`2<UnityEngine.XR.ARFoundation.ARRaycastHit,UnityEngine.Pose>
+struct Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A;
 // System.Converter`2<System.Object,System.Object>
 struct Converter_2_tC9AFAC88B7B2F2A78BE628A4D126535F0A4A1486;
 // Vuforia.VuEngine/CreateControllerDelegate`1<System.Object>
@@ -6926,6 +6928,11 @@ struct Comparison_1_tDEDD2609C3AA3FE49B0B4CA4B2379FE4AAAE0191  : public Multicas
 
 // System.Comparison`1<UnityEngine.UIElements.UIR.Implementation.UIRStylePainter/Entry>
 struct Comparison_1_t588A0F4BDE4F07A6313CE4762C6D78BC141360A5  : public MulticastDelegate_t
+{
+};
+
+// System.Converter`2<UnityEngine.XR.ARFoundation.ARRaycastHit,UnityEngine.Pose>
+struct Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A  : public MulticastDelegate_t
 {
 };
 
@@ -27112,6 +27119,80 @@ IL_0049:
 	{
 		return;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 Converter_2_Invoke_mD1C3E185FF7F1424B205D529ACA0413118FB0CF8_Multicast(Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A* __this, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 ___input0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 retVal;
+	memset((&retVal), 0, sizeof(retVal));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A* currentDelegate = reinterpret_cast<Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A*>(delegatesToInvoke[i]);
+		typedef Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 (*FunctionPointerType) (RuntimeObject*, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70, const RuntimeMethod*);
+		retVal = ((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___input0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+	return retVal;
+}
+Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 Converter_2_Invoke_mD1C3E185FF7F1424B205D529ACA0413118FB0CF8_Open(Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A* __this, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 ___input0, const RuntimeMethod* method)
+{
+	typedef Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 (*FunctionPointerType) (ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___method_ptr_0)(___input0, method);
+}
+Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 Converter_2_Invoke_mD1C3E185FF7F1424B205D529ACA0413118FB0CF8_OpenStaticInvoker(Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A* __this, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 ___input0, const RuntimeMethod* method)
+{
+	return InvokerFuncInvoker1< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 >::Invoke(__this->___method_ptr_0, method, NULL, ___input0);
+}
+Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 Converter_2_Invoke_mD1C3E185FF7F1424B205D529ACA0413118FB0CF8_ClosedStaticInvoker(Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A* __this, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 ___input0, const RuntimeMethod* method)
+{
+	return InvokerFuncInvoker2< Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, RuntimeObject*, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___input0);
+}
+// System.Void System.Converter`2<UnityEngine.XR.ARFoundation.ARRaycastHit,UnityEngine.Pose>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Converter_2__ctor_mBA4963F62DFAF7A3E6278740DEC1202D17A4F181_gshared (Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Converter_2_Invoke_mD1C3E185FF7F1424B205D529ACA0413118FB0CF8_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&Converter_2_Invoke_mD1C3E185FF7F1424B205D529ACA0413118FB0CF8_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Converter_2_Invoke_mD1C3E185FF7F1424B205D529ACA0413118FB0CF8_Open;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&Converter_2_Invoke_mD1C3E185FF7F1424B205D529ACA0413118FB0CF8_Multicast;
+}
+// TOutput System.Converter`2<UnityEngine.XR.ARFoundation.ARRaycastHit,UnityEngine.Pose>::Invoke(TInput)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 Converter_2_Invoke_mD1C3E185FF7F1424B205D529ACA0413118FB0CF8_gshared (Converter_2_t0ABB893FDE9B72B420A1C44DFEEBC75F71B87B3A* __this, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 ___input0, const RuntimeMethod* method) 
+{
+	typedef Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 (*FunctionPointerType) (RuntimeObject*, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___input0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
