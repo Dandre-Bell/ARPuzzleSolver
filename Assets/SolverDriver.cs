@@ -39,6 +39,7 @@ public class SolverDriver : MonoBehaviour
     {   
         m_RaycastManager = GetComponent<ARRaycastManager>();
         m_AnchorManager = GetComponent<ARAnchorManager>();
+        // populate hintObject dictionary
         hintObjects.Add("Clubs", trifoldPrefab);
         hintObjects.Add("Hearts", ampPrefab);
         hintObjects.Add("Spades", treePrefab);
